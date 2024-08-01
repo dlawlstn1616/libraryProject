@@ -1,0 +1,75 @@
+.library-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  width: 100%;
+  background: #21296F;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.library-header .library-title {
+  position: fixed; 
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%); 
+  color: #FFFFFF;
+  font-size: 5vw;
+  margin: 0; 
+  padding: 0; 
+}
+
+.library-header .library-home {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  width: 5%;
+  height: 80%;
+  background: url('../assets/home.PNG') no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.library-header .library-login {
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  width: 5%;
+  height: 80%;
+  background: url('../assets/user2.PNG') no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.library-login-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 15%;
+  right: 4%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1001;
+  padding: 10px;
+}
+
+.library-login-menu button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.library-login-menu button:last-child {
+  margin-bottom: 0;
+}
+
+.library-login-menu button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,36 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* 시작 지점을 기준으로 정렬 */
+  min-height: 100vh;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-top: 10%; /* 상단 패딩을 추가하여 여백을 유지 */
+}
+
+.book-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.book-action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px; /* 아이템 간의 간격을 위해 */
+  cursor: pointer;
+}
+
+.book-icon {
+  width: 300px; /* 이미지 크기 조정 */
+  height: auto;
+}
+
+.book-action-text {
+  margin-top: 10px;
+  font-size: 50px;
+  color: #333;
+}
